@@ -1,0 +1,92 @@
+
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: flex-start; 
+}
+
+table {
+    width: 60%; 
+    border-collapse: collapse;
+    margin-right: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+#registro {
+    width: 300px;
+    margin: 40px auto; 
+    padding: 20px; 
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    background-color: #1cd415; 
+}
+
+.msg {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff0000;
+}
+
+#guardar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #161b18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+#guardar:hover {
+    background-color: #0056b3; 
+    transform: scale(1.1); 
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+
+
+
+}
+
+.msg2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #000;
+    padding: 20px;
+    z-index: 1000;
+    width: 300px; 
+    text-align: center; 
+}
